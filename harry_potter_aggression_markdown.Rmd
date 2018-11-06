@@ -1,0 +1,17 @@
+---
+title: "harry_potter_aggression"
+author: "Jamie K. Miller"
+date: "November 6, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message = FALSE}
+library(tidyverse)
+hp_data <- read.csv("harry_potter_aggression_full.csv")
+```
+
+HI JKM!
